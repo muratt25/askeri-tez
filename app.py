@@ -9,7 +9,7 @@ from PIL import Image
 # --- AYARLAR VE YAPILANDIRMA ---
 # ÖNEMLİ: Canlıda API anahtarını koda yazmak yerine Streamlit "Secrets" kullanacağız.
 API_KEY = st.secrets.get("OPENAI_API_KEY", "")
-MODEL_YOLU = "C:/Users/yazic/OneDrive/Desktop/MODEL/best.pt" 
+MODEL_YOLU = "best.pt" 
 
 st.set_page_config(page_title="Askeri İstihbarat Analizi", page_icon="🛡️", layout="wide")
 
